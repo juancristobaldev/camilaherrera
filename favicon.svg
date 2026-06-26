@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E88E5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#43A047;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background circle with gradient -->
+  <circle cx="256" cy="256" r="240" fill="url(#grad)" />
+  <!-- Stylized white heart -->
+  <path d="M256 397.3c-4.1 0-7.9-2.1-10.2-5.6l-92.4-142.1C136.2 222.9 128 198.8 128 173.8c0-50.6 41.2-91.8 91.8-91.8 28 0 53.6 12.6 70.8 32.5 17.2-19.9 42.8-32.5 70.8-32.5 50.6 0 91.8 41.2 91.8 91.8 0 25-8.2 49.1-25.4 75.8L341.8 391.7c-2.3 3.5-6.1 5.6-10.2 5.6h-75.6z" fill="#ffffff" />
+  <!-- Medical/Nursing cross inside the heart, showing the background gradient -->
+  <path d="M256 180v80M216 220h80" stroke="url(#grad)" stroke-width="24" stroke-linecap="round" />
+</svg>
